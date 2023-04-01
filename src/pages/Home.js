@@ -14,7 +14,7 @@ const Home = () => {
     }, []);
     return (
         <div className='container mx-auto'>
-            <div className='grid md:grid-cols-4 gap-x-4 gap-y-8'>
+            <div className='grid md:grid-cols-4 xl:grid-cols-5 gap-x-4 gap-y-8'>
                 {shows.map(show => <AllShows
                     key={show.show.id}
                     show={show}
